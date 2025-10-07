@@ -1,0 +1,319 @@
+ @media (max-width: 1199px) {
+    a.logo img {    max-width: 280px;}
+    h1{font-size: 40px;}
+    h2 {font-size: 36px;}   
+    .list-items-service h3, h3 {    font-size: 27px;}
+    h4 {font-size: 22px;}
+    h5 {font-size: 18px;}
+
+    .padd-75, .padd-70 {padding: 50px 0;}
+    .pb-75{padding-bottom: 50px;}
+    .padd-60, .padd-50{padding: 45px 0;}
+    .pb-50 {    padding-bottom: 45px;}
+.hero-content {
+    max-width: 500px;
+    font-size: 16px;
+}
+.pr-40 {    padding-right: 12px;}
+.Services-secion h2, .services-list h2, .service-detail h2.mb-30 {  margin-bottom: 30px;}
+.Services-secion .col-md-4 { padding: 0px 10px;}
+.cards { padding: 20px;}   
+.Services-secion .row {
+    margin: 0px -10px;
+    row-gap: 20px;
+}
+.testimonial  .inner-row { padding: 30px;}
+.brand-logo {
+    padding: 60px 50px 25px 50px;
+    margin-bottom: 40px;
+}
+ }
+ @media(max-width:991px){
+    a.logo img {
+    max-width: 180px;
+}
+.main-menu a {
+    padding: 4px 6px;
+    font-size: 15px;
+}
+
+button.owl-thumb-item {
+    width: calc(50% - 10px);
+}
+.owl-thumbs {
+    position: static;
+    transform: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin-top: 25px;
+    padding: 0px 15px;
+}
+ h1{font-size: 32px;}
+h2 {
+    font-size: 30px;
+}
+.list-items-service h3, h3 {    font-size: 25px;}
+.padd-75, .padd-70 {
+    padding: 40px 0;
+}
+.pb-75{padding-bottom: 40px;}
+
+.padd-60, .padd-50 {
+    padding: 35px 0;
+}
+.pb-50 {    padding-bottom: 35px;}
+.testimonial  .inner-row {
+    padding: 20px;
+}
+footer {
+    margin: 0px 12px;
+    padding-top: 30px;
+    margin-bottom: 12px;
+}
+footer .row {
+    row-gap: 24px;
+}
+.copyright {
+    padding: 12px 0px 18px 0px;
+    margin-top: 20px;
+}
+.testimonial-text {
+    padding-left: 30px;
+}
+.service-col {
+    padding: 15px 80px 15px 20px;
+}
+.choose-section .row {
+    row-gap: 50px;
+}
+.contact-card {
+    padding: 25px;
+}
+.field-set {
+    gap: 15px;
+}
+.field-set {
+    gap: 15px;
+}
+.field-btn input {
+    font-size: 17px;
+    padding: 12px;
+    min-width: 200px;
+}
+.director-names {
+    font-size: 15px;
+    padding: 12px 15px;
+    max-width: 100%;
+}
+.director-names h4 {
+    font-size: 20px;
+}
+.about-us-director {
+    padding: 40px 0px;
+}
+.brand-logo.brand-logo-innerpages {
+    padding: 30px 60px;
+    margin: 0 0 50px 0;
+}
+.brand-logo a {
+    padding: 5px;
+}
+.brand-logo img {
+    max-height: 60px;
+}
+.facality-col{width: 100%;}
+ }
+ @media(max-width:767px){
+    button.menu-toggle{display: block;}
+.navigation {
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: -200%;
+    background: #fff;
+    z-index: 9;
+    padding: 15px;
+    height: 100%;
+    max-height: 100vh;
+    transition: 0.3s;
+}
+.navigation.menu-active {
+    top: 0;
+}
+span.close-btn-menu {
+    background: #79206e;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-bottom: 15px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 500;
+    position: relative;
+}
+.close-btn-menu:after {
+    content: "+";
+    display: inline-block;
+    transform: rotate(45deg);
+}
+.main-menu {
+    flex-direction: column;
+}
+.main-menu a {
+    padding: 4px 10px;
+    width: 100%;
+}
+ h1{font-size: 28px;}
+h2 {    font-size: 24px;}
+.list-items-service h3, h3 {    font-size: 22px;}
+h3 br{display: none;}
+.heading-top {
+    font-size: 14px;
+    font-weight: 600;
+    color: #0B6AA3;
+    line-height: 31px;
+}
+.padd-75, .padd-70 {padding: 30px 0;}
+.pb-75{padding-bottom: 30px;}
+.padd-60, .padd-50 {padding: 25px 0;}
+.pb-50 {    padding-bottom: 25px;}
+
+body {
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: normal;
+}
+.hero-slider .item img {
+    min-height: 340px;
+}
+.hero-content p {
+    line-height: normal;
+    font-size: 14px;
+    margin: 0px;
+}
+
+.owl-dots {
+    position: absolute;
+    right: 0;
+    top: auto;
+    transform: none;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    bottom: 5px;
+}
+.owl-dots button.owl-dot {
+    margin: 2px;
+}
+button.owl-thumb-item strong {
+    min-width: 100%;
+    padding-right: 0;
+}
+button.owl-thumb-item {
+    width: calc(50% - 5px);
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 10px;
+    row-gap: 10px;
+}
+.Services-secion h2, .services-list h2, .service-detail h2.mb-30 {    margin-bottom: 15px;}
+.cards {    padding: 15px;}
+.cards h4 {    margin-bottom: 13px;}
+.btn {
+    font-size: 15px;
+    padding: 6px 17px;
+
+}
+h4 {    font-size: 18px;}
+.link-btn span {
+    width: 30px;
+    height: 30px;
+
+}
+.testimonial-text {    padding-left: 10px;}
+.testimonial .img-effect {
+    max-width: 200px;
+    margin: 0 auto;
+}
+.testimonial h2 {   margin-bottom: 15px;}
+.row {    row-gap: 25px;}
+footer {
+    padding-top: 20px;
+    border-radius: 10px;
+}
+a.footer-logo img {    max-width: 180px;}
+.pages-banner-title {    height: 220px;}
+.service-col {    padding: 15px 15px 0px 15px;}
+span.number-service{display: none;}
+h1.page-title br {
+    display: none;
+}
+.choose-section .row {
+    row-gap: 25px;
+}
+.order-2{order: 1;}
+.cta {
+    padding: 0px 10px 30px 10px;
+}
+.cta .container {
+    padding: 15px;
+}
+.accordion-button {
+    font-size: 17px;
+    padding: 13px;
+}
+.accordion-body {
+    padding: 0px 15px  15px 15px;
+}
+.field-set {
+    flex-wrap: wrap;
+    gap: 0;
+}
+.field input, .field textarea {
+    font-size: 15px;
+    padding: 8px 12px;
+    line-height: normal;
+}
+.contact-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+}
+.contact-card .social-icons {
+    margin-top: 20px;
+}
+.social-icons a {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+.Contact-us h4 {
+    margin-bottom: 18px;
+}
+.about-us-director {
+    padding: 30px 0px;
+}
+.brand-logo.brand-logo-innerpages {
+    padding: 15px;
+    margin: 0 0 30px 0;
+    border-radius: 30px;
+}
+.brand-logo {
+    padding: 46px 15px 20px 15px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+    margin-top: -30px;
+    border-radius: 0px 0px 30px 30px;
+}
+.help-content {
+    padding: 40px;
+}
+.two-service {
+    flex-wrap: wrap;
+}
+ }
